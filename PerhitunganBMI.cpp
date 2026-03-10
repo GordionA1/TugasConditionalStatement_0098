@@ -28,3 +28,11 @@ string bmi (float r){
         }
     }
 }
+
+// membuat prosedur input 
+void input(){
+    cout <<"masukkan berat badan (kg) = ";
+    cin >> NilBB;
+    cout <<"masukkan tinggi badan (meter) = ";
+    cin >> NilTB;
+}
