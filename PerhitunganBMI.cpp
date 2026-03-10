@@ -36,3 +36,13 @@ void input(){
     cout <<"masukkan tinggi badan (meter) = ";
     cin >> NilTB;
 }
+
+// program utama
+int main() {
+    cout <<"--- Selamat datang mahasiswa kelas B 2026 ---"<<endl;
+    input();
+    float x = perhitungan_bmi(NilBB, NilTB);
+    cout <<"--- Hasil ---" <<endl;
+    cout << "BMI Anda = " <<perhitungan_bmi(NilBB, NilTB) <<endl; 
+    cout << "dengan status = " <<bmi(x) <<endl;
+}
